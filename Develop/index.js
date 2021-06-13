@@ -1,10 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-// const generatePage = require('./src/page-template');
+const generatePage = require('./src/page-template');
 // const { writeFile, copyFile } = require('./utils/generate-site');
 
 // TODO: Create an array of questions for user input
-const questions = () => {
+const questions = readmeData => {
     return inquirer.prompt([
       {
         type: 'input',
@@ -120,7 +120,9 @@ const questions = () => {
 
 
 questions()
-  .then(answers => console.log(answers));
+  .then(readmeData => {
+    return generatePage(readmeData);
+});
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
