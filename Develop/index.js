@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
 const generatePage = require('./src/page-template');
-// const { writeFile, copyFile } = require('./utils/generate-site');
+const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = readmeData => {
@@ -123,6 +124,24 @@ questions()
   .then(readmeData => {
     return generatePage(readmeData);
 });
+
+// generate readme 
+fs.writeFile('readme.md', generatePage(questions), err => {
+    if (err) throw err;
+  
+    console.log('Portfolio complete! Check out index.html to see the output!');
+});
+
+// questions()
+//   .then(readmeData => {
+//     const pageMD = generatePage(readmeData);
+
+//     fs.writeFile('./readme.md', pagemd, err => {
+//       if (err) throw new Error(err);
+
+//       console.log('Page created! Check out readme. in this directory to see it!');
+//     });
+//   });
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}

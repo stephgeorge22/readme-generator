@@ -10,7 +10,7 @@ module.exports = templateData => {
     # ${header.title}
 
     ## Description 
-    ${body.description}
+    ${header.description}
 
     ## Table of Contents (Optional)
     
@@ -20,19 +20,19 @@ module.exports = templateData => {
     * [Test](#test)
     
     ## Installation
-    ${body.installation}
+    ${header.installation}
 
     ## Usage 
-    ${body.usage}
+    ${header.usage}
     
     ## Contributing
-    ${body.contribution}
+    ${header.contribution}
         
     ## Tests
-    ${body.test}
+    ${header.test}
 
     ## Questions
-    ${footer.github}
-    ${footer.email}
+    ${header.github}
+    ${header.email}
     `;
 };
