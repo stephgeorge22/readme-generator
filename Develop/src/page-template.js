@@ -1,6 +1,6 @@
 module.exports = templateData => {
     // console.log(templateData);
-    const { projects, about, ...header } = templateData;
+    const { title, description, installation, ...header } = templateData;
   
     return `
 
