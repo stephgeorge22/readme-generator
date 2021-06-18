@@ -5,8 +5,6 @@ const generatePage = require('./src/page-template');
 const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-
-
 const questions = () => {
     return inquirer.prompt([
       {
@@ -120,7 +118,6 @@ const questions = () => {
         }
     }]);
 };
-
  
 questions() 
   .then(readmeData => {
@@ -132,11 +129,3 @@ questions()
     });
 });
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
