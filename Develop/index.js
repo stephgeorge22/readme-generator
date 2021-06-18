@@ -89,9 +89,9 @@ const questions = () => {
     },
     {
         type: 'checkbox',
-        name: 'languages',
-        message: 'What lanuages did you use for this project? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        name: 'license',
+        message: 'Choose your licenses for this project? (Check all that apply)',
+        choices: ['Apache', 'MIT', 'Mozilla']
     },
     {
         type: 'input',
