@@ -1,5 +1,5 @@
 module.exports = templateData => {
-    const { license, title, description, installation, usage, contribution, test, github, ...email} = templateData;
+    const { license, title, description, installation, usage, contribution, test, github, email} = templateData;
 
     const generateBadges = license => {
         apache = "";
@@ -27,7 +27,7 @@ ${generateBadges(license)}
 ## Description 
 ${description}
 
-## Table of Contents (Optional)
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -40,6 +40,10 @@ ${installation}
 ## Usage 
 ${usage}
 
+## License
+This application is covered under the following licenses:
+${license}
+
 ## Contributing
 ${contribution}
     
@@ -47,7 +51,7 @@ ${contribution}
 ${test}
 
 ## Questions
-Github username: ${github}
+Github: www.github.com/${github}
 Email: ${email}
     `;
 };

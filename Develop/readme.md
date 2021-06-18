@@ -1,14 +1,14 @@
 
 
 ## Badges
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-# asdj
+# aksdf
 
 ## Description 
-aslkjdn
+asdfh
 
-## Table of Contents (Optional)
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -16,18 +16,22 @@ aslkjdn
 * [Test](#test)
 
 ## Installation
-as;kjf
+aldjfh
 
 ## Usage 
-;aksjf
+adf
+
+## License
+This application is covered under the following licenses:
+Apache,MIT,Mozilla
 
 ## Contributing
-kjasf
+adf
     
 ## Tests
-ikjh
+adf
 
 ## Questions
-Github username: adf
-Email: [object Object]
+Github: www.github.com/stephgeorge22
+Email: stephanie.george22@gmail.com
     
