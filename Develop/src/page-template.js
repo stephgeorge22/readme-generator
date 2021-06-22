@@ -31,8 +31,8 @@ ${description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 ## Installation
 ${installation}

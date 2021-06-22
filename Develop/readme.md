@@ -1,35 +1,35 @@
 
 
 ## Badges
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 
-# aksdf
+# Readme Generator
 
 ## Description 
-asdfh
+This application prompts the user with project related questions and uses those reponses to generate a high quality readme. 
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 ## Installation
-aldjfh
+This application requries npm installer.
 
 ## Usage 
-adf
+https://drive.google.com/file/d/1vdgDmnE3yfp6UQQRT6J8LmJRwSVrC1xQ/view
 
 ## License
 This application is covered under the following licenses:
-Apache,MIT,Mozilla
+Apache
 
 ## Contributing
-adf
+Please refer to this link:https://www.contributor-covenant.org/
     
 ## Tests
-adf
+There are no test instructions at this moment. 
 
 ## Questions
 Github: www.github.com/stephgeorge22
